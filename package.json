@@ -30,7 +30,7 @@
   "dependencies": {
     "broccoli-filter": "^0.1.6",
     "minimatch": "^1.0.0",
-    "applause": "0.3.4"
+    "applause": "git://github.com/igorT/applause.git'
   },
   "devDependencies": {
     "mocha": "^1.20.0",
