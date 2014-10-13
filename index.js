@@ -45,7 +45,8 @@ ReplaceFilter.prototype.getDestFilePath = function (relativePath) {
   return null;
 };
 
-ReplaceFilter.prototype.processString = function (string) {
+ReplaceFilter.prototype.processString = function (string, filePath) {
+  console.log("file:" + filePath);
   var result = this.applause.replace(string);
   if (result === false) {
     // no replacements
